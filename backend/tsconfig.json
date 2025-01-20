@@ -2,13 +2,12 @@
   "compilerOptions": {
     "target": "ES6",                // Specify ECMAScript 2015 (ES6) or later
     "module": "ES6",                // Use ESModules
-    "outDir": "./portfolio",             // Directory for compiled JavaScript
+    "outDir": "./dist",             // Directory for compiled JavaScript
     "rootDir": "./src",             // Directory for TypeScript source files
     "moduleResolution": "node",    // Node.js module resolution
     "strict": true,                 // Enable strict type checking
     "esModuleInterop": true,        // Allow default imports for CommonJS modules
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src//*"],           // Include all TypeScript files in src/
-  "exclude": ["node_modules", "dist"] // Exclude these directories
+  "include": ["src/**/*"],           // Include all TypeScript files in src/
 }
